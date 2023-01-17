@@ -24,6 +24,7 @@
                         <td>{{ $elem['orario_arrivo'] }}</td>
                         <td>{{ $elem['binario'] }}</td>
                         <td>{{ $elem['prezzo'] }} €</td>
+
                     </tr>
                 @endforeach
             </tbody>
