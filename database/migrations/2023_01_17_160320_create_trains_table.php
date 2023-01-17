@@ -18,10 +18,10 @@ class CreateTrainsTable extends Migration
             $table->string('treno', 50);
             $table->string('partenza', 50);
             $table->string('arrivo', 50);
-            $table->float('orario_partenza', 4,2);
-            $table->float('orario_arrivo', 4,2);
+            $table->decimal('orario_partenza', 4,2);
+            $table->decimal('orario_arrivo', 4,2);
             $table->smallInteger('binario');
-            $table->float('prezzo', 4, 2);
+            $table->decimal('prezzo', 4, 2);
             $table->timestamps();
         });
     }
